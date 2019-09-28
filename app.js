@@ -14,7 +14,13 @@ console.log(first.id);
 first.id = 999;
 console.log(first.id);
 
-console.log(first.reposts);
+const comment = {
+    id:24234,
+    authorName: 'Regina',
+    authorAvatarUrl: 'https://placekitten.com/50/50',
+    created: '18 сен в 6:32',
+    likes: 0,
+}
 
 const id = 242342;
 const avatarUrl = 'https://placekitten.com/50/50';
