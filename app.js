@@ -1,7 +1,14 @@
 console.log('worked');
+const vasya = {
+    id:234,
+    name: 'Vasya',
+    avatarUrl: 'https://placekitten.com/50/50',
+
+};
 
 const first = {
     id: 242342, // свойства объекта оформляются так
+    author: vasya,
     content: 'большой контент!',
     likes: 4,
     likedByMe: true,
@@ -16,11 +23,12 @@ console.log(first.id);
 
 const comment = {
     id:24234,
-    authorName: 'Regina',
-    authorAvatarUrl: 'https://placekitten.com/50/50',
+    author: vasya,
     created: '18 сен в 6:32',
     likes: 0,
-}
+};
+
+console.log(comment.author.name);
 
 const id = 242342;
 const avatarUrl = 'https://placekitten.com/50/50';
